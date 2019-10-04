@@ -1,0 +1,10 @@
+# Material name for which item will be used for economy commands
+DefaultCurrency: Grass_Block
+
+# Should non-blank items count as economy?
+# If false, only non-named, normal items count as currency
+# If true, named items will count as normal items so long as they are of the default material type
+AllowCustomTags: false
+
+# Default amount to be withdrawn/deposited when using /dep or /with without parameters
+DefaultAmount: 1

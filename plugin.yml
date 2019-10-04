@@ -1,0 +1,18 @@
+name: CustomEconomy
+main: com.reddevtrails.customeconomy.CustomEconomy
+version: 1.0.0
+api-version: 1.13
+
+depend:
+  - Vault
+
+commands:
+  deposit:
+    description: Used to deposit currency
+    aliases: [dep]
+  withdraw:
+    description: Used to withdraw currency
+    aliases: [with]
+  customeconomy:
+    description: Used to make changes/reload plugin
+    aliases: [cecon]
